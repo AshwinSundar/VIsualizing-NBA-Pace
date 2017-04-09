@@ -24,6 +24,7 @@ require(plotly) # a better plotting library
 
 staticWidth <- "200px"
 staticHeight <- staticWidth
+rawDataDir <- "C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/VIsualizing-NBA-Pace/rawdata"
 
 # Define UI for application that draws a histogram
 ui <- navbarPage(
@@ -50,7 +51,7 @@ server <- function(input, output) {
    output$testPlot <- renderPlotly({
      
      # Step 1: Get the games
-     setwd("C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/rawdata")
+     setwd(rawDataDir)
      NBA_2016 <- readRDS(file = "NBA_2016.RData")
      
      # Step 1.5: Fixing the points columns so R doesn't keep getting pissed off that they are levels, not numerics
@@ -87,7 +88,7 @@ server <- function(input, output) {
    output$testPlot2 <- renderPlotly({
      
      # Step 1: Get the games
-     setwd("C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/rawdata")
+     setwd(rawDataDir)
      NBA_2016 <- readRDS(file = "NBA_2016.RData")
      
      # Step 1.5: Fixing the points columns so R doesn't keep getting pissed off that they are levels, not numerics
@@ -123,7 +124,7 @@ server <- function(input, output) {
    output$testPlot3 <- renderPlotly({
      
      # Step 1: Get the games
-     setwd("C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/rawdata")
+     setwd(rawDataDir)
      NBA_2016 <- readRDS(file = "NBA_2016.RData")
      
      # Step 1.5: Fixing the points columns so R doesn't keep getting pissed off that they are levels, not numerics
@@ -159,7 +160,7 @@ server <- function(input, output) {
    output$h2Dc19471949 <- renderPlotly({
      
      # Step 1: Get the games
-     setwd("C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/rawdata")
+     setwd(rawDataDir)
      BAA_1948 <- readRDS(file = "BAA_1948.RData")
      BAA_1949 <- readRDS(file = "BAA_1949.RData")
      gamesList <- list(BAA_1948, BAA_1949)
@@ -195,7 +196,7 @@ server <- function(input, output) {
              height = staticHeight,
              hoverinfo = "none",
              ncontours = 10,
-             colorbar = list(title = paste("Games Played", HTML("<br>"), "(out of ", numGamesPlayed, " total games)")),
+             colorbar = list(title = paste("(Out of ", numGamesPlayed, " total games)")),
              xbins = list(start = 40, end = 190, size = 5),
              ybins = list(start = 40, end = 190, size = 5)
      ) %>% layout(xaxis = list(title = "Home Points",
@@ -211,7 +212,7 @@ server <- function(input, output) {
    output$h2Dc19501959 <- renderPlotly({
      
      # Step 1: Get the games
-     setwd("C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/rawdata")
+     setwd(rawDataDir)
      NBA_1950 <- readRDS(file = "NBA_1950.RData")
      NBA_1951 <- readRDS(file = "NBA_1951.RData")
      NBA_1952 <- readRDS(file = "NBA_1952.RData")
@@ -263,7 +264,7 @@ server <- function(input, output) {
              height = staticHeight,
              hoverinfo = "none",
              ncontours = 10,
-             colorbar = list(title = paste("Games Played", HTML("<br>"), "(out of ", numGamesPlayed, " total games)")),
+             colorbar = list(title = paste("(Out of ", numGamesPlayed, " total games)")),
              xbins = list(start = 40, end = 190, size = 5),
              ybins = list(start = 40, end = 190, size = 5)
      ) %>% layout(xaxis = list(title = "Home Points",
@@ -278,7 +279,7 @@ server <- function(input, output) {
    output$h2Dc19601969 <- renderPlotly({
      
      # Step 1: Get the games
-     setwd("C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/rawdata")
+     setwd(rawDataDir)
      NBA_1960 <- readRDS(file = "NBA_1960.RData")
      NBA_1961 <- readRDS(file = "NBA_1961.RData")
      NBA_1962 <- readRDS(file = "NBA_1962.RData")
@@ -334,7 +335,7 @@ server <- function(input, output) {
              height = staticHeight,
              hoverinfo = "none",
              ncontours = 10,
-             colorbar = list(title = paste("Games Played", HTML("<br>"), "(out of ", numGamesPlayed, " total games)")),
+             colorbar = list(title = paste("(Out of ", numGamesPlayed, " total games)")),
              xbins = list(start = 40, end = 190, size = 5),
              ybins = list(start = 40, end = 190, size = 5)
      ) %>% layout(xaxis = list(title = "Home Points",
@@ -349,7 +350,7 @@ server <- function(input, output) {
    output$h2Dc19701979 <- renderPlotly({
      
      # Step 1: Get the games
-     setwd("C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/rawdata")
+     setwd(rawDataDir)
      NBA_1970 <- readRDS(file = "NBA_1970.RData")
      ABA_1970 <- readRDS(file = "ABA_1970.RData")
      NBA_1971 <- readRDS(file = "NBA_1971.RData")
@@ -416,7 +417,7 @@ server <- function(input, output) {
              height = staticHeight,
              hoverinfo = "none",
              ncontours = 10,
-             colorbar = list(title = paste("Games Played", HTML("<br>"), "(out of ", numGamesPlayed, " total games)")),
+             colorbar = list(title = paste("(Out of ", numGamesPlayed, " total games)")),
              xbins = list(start = 40, end = 190, size = 5),
              ybins = list(start = 40, end = 190, size = 5)
      ) %>% layout(xaxis = list(title = "Home Points",
@@ -431,7 +432,7 @@ server <- function(input, output) {
    output$h2Dc19801989 <- renderPlotly({
      
      # Step 1: Get the games
-     setwd("C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/rawdata")
+     setwd(rawDataDir)
      NBA_1980 <- readRDS(file = "NBA_1980.RData")
      NBA_1981 <- readRDS(file = "NBA_1981.RData")
      NBA_1982 <- readRDS(file = "NBA_1982.RData")
@@ -483,7 +484,7 @@ server <- function(input, output) {
              height = staticHeight,
              hoverinfo = "none",
              ncontours = 10,
-             colorbar = list(title = paste("Games Played", HTML("<br>"), "(out of ", numGamesPlayed, " total games)")),
+             colorbar = list(title = paste("(Out of ", numGamesPlayed, " total games)")),
              xbins = list(start = 40, end = 190, size = 5),
              ybins = list(start = 40, end = 190, size = 5)
      ) %>% layout(xaxis = list(title = "Home Points",
@@ -498,7 +499,7 @@ server <- function(input, output) {
    output$h2Dc19901999 <- renderPlotly({
      
      # Step 1: Get the games
-     setwd("C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/rawdata")
+     setwd(rawDataDir)
      NBA_1990 <- readRDS(file = "NBA_1990.RData")
      NBA_1991 <- readRDS(file = "NBA_1991.RData")
      NBA_1992 <- readRDS(file = "NBA_1992.RData")
@@ -550,7 +551,7 @@ server <- function(input, output) {
              height = staticHeight,
              hoverinfo = "none",
              ncontours = 10,
-             colorbar = list(title = paste("Games Played", HTML("<br>"), "(out of ", numGamesPlayed, " total games)")),
+             colorbar = list(title = paste("(Out of ", numGamesPlayed, " total games)")),
              xbins = list(start = 40, end = 190, size = 5),
              ybins = list(start = 40, end = 190, size = 5)
      ) %>% layout(xaxis = list(title = "Home Points",
@@ -565,7 +566,7 @@ server <- function(input, output) {
    output$h2Dc20002009 <- renderPlotly({
      
      # Step 1: Get the games
-     setwd("C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/rawdata")
+     setwd(rawDataDir)
      NBA_2000 <- readRDS(file = "NBA_2000.RData")
      NBA_2001 <- readRDS(file = "NBA_2001.RData")
      NBA_2002 <- readRDS(file = "NBA_2002.RData")
@@ -617,7 +618,7 @@ server <- function(input, output) {
              height = staticHeight,
              hoverinfo = "none",
              ncontours = 10,
-             colorbar = list(title = paste("Games Played", HTML("<br>"), "(out of ", numGamesPlayed, " total games)")),
+             colorbar = list(title = paste("(Out of ", numGamesPlayed, " total games)")),
              xbins = list(start = 40, end = 190, size = 5),
              ybins = list(start = 40, end = 190, size = 5)
      ) %>% layout(xaxis = list(title = "Home Points",
@@ -632,7 +633,7 @@ server <- function(input, output) {
    output$h2Dc2010present <- renderPlotly({
      
      # Step 1: Get the games
-     setwd("C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/rawdata")
+     setwd(rawDataDir)
      NBA_2010 <- readRDS(file = "NBA_2010.RData")
      NBA_2011 <- readRDS(file = "NBA_2011.RData")
      NBA_2012 <- readRDS(file = "NBA_2012.RData")
@@ -679,7 +680,7 @@ server <- function(input, output) {
              height = staticHeight,
              hoverinfo = "none",
              ncontours = 10,
-             colorbar = list(title = paste("Games Played", HTML("<br>"), "(out of ", numGamesPlayed, " total games)")),
+             colorbar = list(title = paste("(Out of ", numGamesPlayed, " total games)")),
              xbins = list(start = 40, end = 190, size = 5),
              ybins = list(start = 40, end = 190, size = 5)
      ) %>% layout(xaxis = list(title = "Home Points",
@@ -694,7 +695,7 @@ server <- function(input, output) {
    output$h2DcAllTime <- renderPlotly({
      
      # Step 1: Get the games
-     setwd("C:/Users/Ashwin/Dropbox/Side Projects/NBAScores/rawdata")
+     setwd(rawDataDir)
      BAA_1948 <- readRDS(file = "BAA_1948.RData")
      BAA_1949 <- readRDS(file = "BAA_1949.RData")
      
@@ -895,7 +896,7 @@ server <- function(input, output) {
              width = staticWidth, 
              height = staticHeight,
              hoverinfo = "none",
-             colorbar = list(title = paste("Games Played", HTML("<br>"), "(out of ", numGamesPlayed, " total games)")),
+             colorbar = list(title = paste("(Out of ", numGamesPlayed, " total games)")),
              xbins = list(start = 40, end = 190, size = 5),
              ybins = list(start = 40, end = 190, size = 5)
      ) %>% layout(xaxis = list(title = "Home Points",
