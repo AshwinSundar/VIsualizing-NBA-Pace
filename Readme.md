@@ -43,7 +43,7 @@ The 60s saw the first surge of all-stars that everyone has heard of - Wilt Chamb
 <br>
 
 <b>1970 - 1979: Increasing parity</b><br>
-Unlike the previous decade, which saw only two champions, the 70s saw 8 different teams (Knicks, Bucks, Lakers, Celtics, Warriors, Trail Blazers, Bullets, SuperSonics) win a championship, with 4 of the 8 being first-time champions (Knicks, Trail Blazers, Bullets, SuperSonics). The NBA is growing in popularity, with star players like Kareem Abdul-Jabbar, Rick Barry, Dr. J, Walt Frazier, Moses Malone, George Gervin, and Pete Maravich coming into their primes. The pace of the NBA is trending downwards, likely because of the increase in competition and the retirements of Bill Russell in 1969 and Wilt Chamberlain in 1973. 
+Unlike the previous decade, which saw only two champions, the 70s saw 8 different teams (Knicks, Bucks, Lakers, Celtics, Warriors, Trail Blazers, Bullets, SuperSonics) win a championship, with 4 of the 8 being first-time champions (Knicks, Trail Blazers, Bullets, SuperSonics). The NBA is growing in popularity, with star players like Kareem Abdul-Jabbar, Rick Barry, Julius Erving, Walt Frazier, Moses Malone, George Gervin, and Pete Maravich coming into their primes. The pace of the NBA is trending downwards, likely because of the increase in competition and the retirements of Bill Russell in 1969 and Wilt Chamberlain in 1973. 
 <img src = 'https://github.com/AshwinSundar/Visualizing-NBA-Pace/blob/master/screenshots/19701979points.png'></img>
 <br>
 
