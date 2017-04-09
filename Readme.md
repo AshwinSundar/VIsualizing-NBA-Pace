@@ -62,9 +62,9 @@ This decade is marked by a new Lakers dynasty, and the often-underrated Spurs dy
 <img src = 'https://github.com/AshwinSundar/Visualizing-NBA-Pace/blob/master/screenshots/20002009points.png'></img> 
 
 <b>2010-2016: The modern era</b><br>
-(Side note: I did not collect 2016-2017 data yet, since the season hasn't ended and basketball-reference.com is still updating) <br>
 Our current era began with the second of Kobe's Lakers' back-to-back championships, the infamous Decision, and the subsequent domination of Lebron James (after a false start). With regards to game pace, it appears as though it is trending upwards again - more games are ending at around 100 points, as compared to the previous decade. We still have a few more years left in the decade, but if the current trends continue (domination of high-scoring teams, the rise of unbelieavably talented guards, multi-dimensional bigs), then we can expect this decade to be one of the highest-scoring in some time. 
 <img src = 'https://github.com/AshwinSundar/Visualizing-NBA-Pace/blob/master/screenshots/20102016points.png'></img>
+(Side note: I did not collect 2016-2017 data yet, since the season hasn't ended and basketball-reference.com is still updating) <br>
 <br>
 
 <b> And finally, here's an animation so you can see all this data at once.</b>
