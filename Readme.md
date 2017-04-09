@@ -70,6 +70,10 @@ Our current era began with the second of Kobe's Lakers' back-to-back championshi
 <b> And finally, here's an animation so you can see all this data at once.</b>
 <img src = 'https://github.com/AshwinSundar/Visualizing-NBA-Pace/blob/master/screenshots/appVideo.gif'> </img>
 <br>
+<b>Conclusion</b>
+The pace of the NBA has fluctuated over time. People like to partition the NBA into modern-era and pre-modern era, since the pace was so different in the 60s. And this is definitely true. However, it's important to note that just because the pace was faster, doesn't mean the records set and feats achieved back then aren't as impressive. The players still had to play at that increased pace, making basketball more of an endurance sport than it is today. Scoring 50 points a game or averaging 25+ boards is still an impressive feat regardless. 
+
+-------------
 
 It has been a lot of fun putting this together! I love NBA statistics (if that wasn't clear already), and I've always felt like there is a better way to understand pace. I think these visualizations make it a lot more obvious how pace trends over time, and it jives with the rest of the conclusions - that pace was a lot higher in the past, and is starting to trend upwards again. Hope you enjoyed this! Please feel free to email me at ashiundar@gmail.com if you've got code questions. Lastly, I want to thank <a href = 'https://github.com/zonination'>Zoni Nation</a> for inspiring me with <a href = 'https://www.reddit.com/r/dataisbeautiful/comments/61rl0r/the_resulting_scores_of_15741_american_football/'>his post</a> about how he analyzed NFL games on <a href = ' https://www.reddit.com/r/dataisbeautiful/ '>/r/dataisbeautiful</a>, which is a fantastic subreddit that you all should subscribe to! 
 
