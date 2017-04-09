@@ -3,6 +3,7 @@
 <br>
 <br>
 ### Part 1: Inspiration
+<br>
 I saw <a href = "https://www.reddit.com/r/dataisbeautiful/comments/61rl0r/the_resulting_scores_of_15741_american_football/">this post</a> by /u/zonination and knew immediately that I needed to recreate this for the NBA. However, I had a few things going against me. Unlike <a href = 'http://www.pro-football-reference.com/boxscores/game-scores.htm'>Pro Football Reference</a>, <a href = 'http://www.basketball-reference.com'>Basketball Reference</a> doesn't have one single page containing every single game that's ever been played. Rather, it is split up into <a href = "http://www.basketball-reference.com/leagues/">season and months</a>. And that's because over 58 <b>thousand</b> NBA/ABA/BAA games have been played since the inception of professional basketball in 1946. This presented a unique challenge - I needed to store the outcomes of every single basketball game that's ever been played in one location so that I could start analyzing data and finding trends. And that's exactly what I did - I wrote an R script (getNBAgames.R) that builds a key-value pair of season:months, builds the URL where the games for that month are located, and then goes to that URL, gets the HTML table, converts it to a dataframe, and saves it as an .RData object. Then, I load the .RData objects into my Shiny app and feed the data into Plotly to generate heatmaps of the data. 
 <br>
 <br>
